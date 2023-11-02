@@ -6,7 +6,6 @@
 
 демо - https://vladislavovichev.github.io/Landing-VPN/
 
-
 desktop version            |  mobile version
 :-------------------------:|:-------------------------:
 ![](https://github.com/Vladislavovichev/Landing-VPN/blob/main/Layout.png)  |  ![](https://github.com/Vladislavovichev/Landing-VPN/blob/main/Layout-mobile.png)
