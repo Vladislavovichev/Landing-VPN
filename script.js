@@ -56,7 +56,6 @@ function isLeftRed() {
 }
 
 function isDotRed() {
-    console.log(offset, 'выполняется');
     switch (offset) {
         case 0:
             first_dot.classList.add('red-dot')
@@ -88,25 +87,25 @@ function isDotRed() {
 //pop-up
 
 let pop_up = document.querySelector('.pop-up-wrapper')
-let close = document.querySelector('.close')
+let close = document.querySelector('.pop-up__close')
 let hasShown = true;
 
 document.addEventListener('scroll', e=> {
     let scroll = window.scrollY;
     if (scroll > 600 && hasShown) {
-        pop_up.classList.add('show')
+        pop_up.classList.add('pop-up__show')
         hasShown = false
     }
 })
 
 close.addEventListener('click', e=> {
-    pop_up.classList.remove('show')
+    pop_up.classList.remove('pop-up__show')
 })
 
 
 //burger
 
-document.querySelector('.burger').addEventListener('click', function() {
-    this.classList.toggle('active');
-    document.querySelector('.header__nav').classList.toggle('open');
+document.querySelector('.header__burger').addEventListener('click', function() {
+    this.classList.toggle('header__burger_active');
+    document.querySelector('.header__nav').classList.toggle('header__burger_open');
 })

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+@import './components/easy';
+@import './components/features';
+@import './components/footer';
+@import './components/header';
+@import './components/map';
+@import './components/numbers';
+@import './components/plans';
+@import './components/pop-up';
+@import './components/slideshow';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    font-weight: 600;
+}
+h2 {
+    font-weight: 500;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 125px;
+
+    span {
+        font-weight: 400;
+    }
+    h1 {
+        font-size: 18px;
+    }
+}
+.btn{
+    color: white;
+    border: none;
+    background: red;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16.5px 45.5px;
+    cursor: pointer;
+}
+.page-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.green-list {
+    list-style: none;
+    font-weight: 600;
+
+    li {
+        margin-bottom: 21px;
+        padding-left: 38px;
+        background: url(../images/green-circle.svg) no-repeat;
+        background-size: 24px 24px;
+        line-height: 24px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo h1{
+        font-size: 14.688px;
+    } 
+    .page-wrapper {
+        padding-top: 15px;
+    }
+    .green-list {
+        margin: 0 auto;
+        li {
+            font-size: 10px;
+            line-height: 15px;
+            background-size: 15.5px 15.5px;
+            margin-bottom: 13.5px;
+            padding-left: 24px;
+        }
+    }
+    .btn {
+        font-size: 11px;
+        padding: 5.5px 15.5px;
+    }
+}

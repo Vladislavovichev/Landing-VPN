@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>VPN Landing</title>
 </head>
 
 <body>
 
-    <div class="wrapper">
+    <div class="page-wrapper">
         <div class="header">
             <div class="header__left">
                 <div class="header__logo logo">
@@ -28,7 +28,7 @@
                 <button class="sign">Sign in</button>
                 <button class="sign">Sign up</button>
             </div>
-            <div class="burger"><span></span></div>
+            <div class="header__burger"><span></span></div>
         </div>
         <div class="easy">
             <div class="easy__left-text">
@@ -40,30 +40,30 @@
                 <button class="btn">Get started</button>
             </div>
             <div class="easy__right-image">
-                <img src="./images/perosn and fingers.png" alt="">
+                <img src="./images/person_and_fingers.png" alt="">
             </div>
         </div>
-        <div class="numbers">
-            <div class="numbers-mini-wrapper">
+        <div class="numbers-wrapper">
+            <div class="numbers">
                 <div class="numbers__vertical-left"></div>
                 <div class="numbers__vertical-right"></div>
-                <div class="numbers__mini first-numbers">
+                <div class="numbers__section first-numbers-section">
                     <img src="./images/user.svg" alt="">
-                    <div class="numbers__first_righ">
+                    <div class="numbers__section-first_righ">
                         <h1>90+</h1>
                         <p>Users</p>
                     </div>
                 </div>
-                <div class="numbers__mini second-numbers">
+                <div class="numbers__section second-numbers-section">
                     <img src="./images/location.svg" alt="">
-                    <div class="numbers__second_right">
+                    <div class="numbers__section-second_right">
                         <h1>30+</h1>
                         <p>Locations</p>
                     </div>
                 </div>
-                <div class="numbers__mini third-numbers">
+                <div class="numbers__section third-numbers-section">
                     <img src="./images/server.svg" alt="">
-                    <div class="numbers__third_right">
+                    <div class="numbers__section-third_right">
                         <h1>50+</h1>
                         <p>Servers</p>
                     </div>
@@ -72,7 +72,7 @@
         </div>
         <div class="features">
             <div class="features__left-image">
-                <img src="./images/person and hands.png" alt="">
+                <img src="./images/person_and_hands.png" alt="">
             </div>
             <div class="features__right-text">
                 <h1>We provide many features you can use</h1>
@@ -146,26 +146,22 @@
             <p>Lorem ipsum dolor sit amet consectetur. Quis tortor gravida nibh arcu id purus ullamcorper. Vel vel
                 erat semper augue.</p>
             <img src="./images/map.svg" alt="">
-
-        </div>
-        <div class="sponsors">
-            <img src="./images/Sponsored.png" alt="">
+            <div class="map__sponsors">
+                <img src="./images/Sponsored.png" alt="">
+            </div>
         </div>
         <div class="customers">
             <h1>Trusted by thousands of happy customer</h1>
             <p>Lorem ipsum dolor sit amet consectetur. Quis tortor gravida nibh arcu id purus ullamcorper. Vel vel
                 erat semper augue.</p>
-
-
-
-
+                
             <div class="slideshow">
                 <div class="slideshow_slides-wrapper">
                     <div class="slideshow-slides">
                         <div class="slideshow_slide">
                             <div class="slideshow_slide-up">
                                 <div class="slideshow_slide-up-left">
-                                    <img src="./images/Ellipse 3.png" alt="">
+                                    <img src="./images/Ellipse3.png" alt="">
                                 </div>
                                 <div class="slideshow_slide-up-middle">
                                     <h1>Brooklyn Simmons</h1>
@@ -188,7 +184,7 @@
                         <div class="slideshow_slide">
                             <div class="slideshow_slide-up">
                                 <div class="slideshow_slide-up-left">
-                                    <img src="./images/Ellipse 1.png" alt="">
+                                    <img src="./images/Ellipse1.png" alt="">
                                 </div>
                                 <div class="slideshow_slide-up-middle">
                                     <h1>Darlene Robertson</h1>
@@ -210,7 +206,7 @@
                         <div class="slideshow_slide">
                             <div class="slideshow_slide-up">
                                 <div class="slideshow_slide-up-left">
-                                    <img src="./images/Ellipse 2.png" alt="">
+                                    <img src="./images/Ellipse2.png" alt="">
                                 </div>
                                 <div class="slideshow_slide-up-middle">
                                     <h1>Darrell Steward</h1>
@@ -232,7 +228,7 @@
                         <div class="slideshow_slide">
                             <div class="slideshow_slide-up">
                                 <div class="slideshow_slide-up-left">
-                                    <img src="./images/Ellipse 3.png" alt="">
+                                    <img src="./images/Ellipse3.png" alt="">
                                 </div>
                                 <div class="slideshow_slide-up-middle">
                                     <h1>Brooklyn Simmons</h1>
@@ -255,7 +251,7 @@
                         <div class="slideshow_slide">
                             <div class="slideshow_slide-up">
                                 <div class="slideshow_slide-up-left">
-                                    <img src="./images/Ellipse 3.png" alt="">
+                                    <img src="./images/Ellipse3.png" alt="">
                                 </div>
                                 <div class="slideshow_slide-up-middle">
                                     <h1>Brooklyn Simmons</h1>
@@ -305,14 +301,14 @@
                         <button class="btn">Subscribe now</button>
 
                     </div>
-                    <div class="close">X</div>
+                    <div class="pop-up__close">X</div>
                 </div>
             </div>
         </div>
         <div class="footer-wrapper">
             <div class="footer">
                 <div class="footer__left-logo">
-                    <div class="footer__left-logo_up logo">
+                    <div class="footer__left-logo-up logo">
                         <img src="./images/logo.svg" alt="">
                         <h1><span>Lasles</span>VPN</h1>
                     </div>
@@ -323,8 +319,8 @@
                     <img src="./images/whatsapp.svg" alt="">
                     <img src="./images/youtube.svg" alt="">
                 </div>
-                <div class="footer_navs">
-                    <div class="footer__nav first">
+                <div class="footer__nav-sections">
+                    <div class="footer__nav-section first-nav-section">
                         <h1>Product</h1>
                         <ul>
                             <li><a href="">Download</a></li>
@@ -335,7 +331,7 @@
                             <li><a href="">Blog</a></li>
                         </ul>
                     </div>
-                    <div class="footer__nav second">
+                    <div class="footer__nav-section second-nav-section">
                         <h1>Engage</h1>
                         <ul>
                             <li><a href="">LaslesVPN?</a></li>
@@ -346,7 +342,7 @@
                             <li><a href="">Terms of service</a></li>
                         </ul>
                     </div>
-                    <div class="footer__nav third">
+                    <div class="footer__nav-section third-nav-section">
                         <h1>Earn money</h1>
                         <ul>
                             <li><a href="">Become partner</a></li>

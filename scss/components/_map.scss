@@ -1,0 +1,48 @@
+.map {
+    max-width: 1060px;
+    margin: 91px auto 0 auto;
+    text-align: center;
+
+    h1 {
+        font-size: 25px;
+        max-width: 252px;
+        margin: 0 auto 16px auto;
+    }
+    p {
+        max-width: 559px;
+        margin: 0 auto;
+        height: 77px;
+        margin-bottom: 50px;
+    }
+    img {
+        width: 100%
+    }
+}
+.map__sponsors {
+    max-width: 1136px;
+    margin: 33px auto 0 auto;
+    margin-bottom: 8px;
+
+    img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .map {
+        margin: 54.4px auto 38.9px auto;
+
+        h1 {
+            font-size: 17px;
+            margin: 0 auto 11px auto;
+        }
+        p {
+            font-size: 11px;
+            height: 53px;
+            margin-bottom: 25px;
+        }
+    }   
+    .map__sponsors {
+        margin-bottom: 49.85px;
+    }  
+}
